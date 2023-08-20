@@ -1,3 +1,7 @@
+import CalculatorState from "./calculatorState";
+
 export default function Calculator(){
-    return (<div>Hola</div>);
+    return (<CalculatorState>
+        <div className="CalculatorConatiner"></div>
+    </CalculatorState>);
 }
