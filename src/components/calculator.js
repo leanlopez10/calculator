@@ -1,7 +1,8 @@
-import { useEffect } from "react";
+
 import Button from "./button";
 import CalculatorScreen from "./calculatorScreen";
 import CalculatorState from "./calculatorState";
+import "./calculator.css";
 
 export default function Calculator(){
     return (
